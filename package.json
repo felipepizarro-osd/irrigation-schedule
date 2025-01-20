@@ -2,6 +2,10 @@
   "name": "irrigation-schedule",
   "version": "0.1.0",
   "private": true,
+  "author": {
+    "name": "Felipe Pizarro",
+    "email": "felipepizarrotoledo@outlook.com"},
+  
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -9,9 +13,10 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@tanstack/react-table": "^8.20.6",
+    "next": "15.1.5",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "15.1.5"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "typescript": "^5",
